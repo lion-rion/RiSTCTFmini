@@ -1,0 +1,12 @@
+@keyframes rotate-z{
+  0%{transform:rotateZ(0deg);}
+  100%{transform:rotateZ(360deg);}
+}
+@-webkit-keyframes rotate-x{
+  0%{-webkit-transform:rotateZ(0deg);}
+  100%{-webkit-transform:rotateZ(360deg);}
+}
+.flag{
+  animation:rotate-z 0.5s infinite;
+  -webkit-animation:rotate-z 0.5s infinite;
+}

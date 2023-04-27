@@ -1,0 +1,511 @@
+<?
+setcookie("flag", "RiSTCTF{cookie_is_yummy}",time()+60*10);
+?>
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>RiST | 立命館セキュリティチーム</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/23699038.jpeg" rel="icon">
+  <link href="assets/img/23699038.jpeg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="assets/js/particle.js"></script>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha - v4.10.0
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">RiST</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero"></a></li>
+          <li><a class="nav-link scrollto" href="#about">RiSTについて</a></li>
+          <li><a class="nav-link scrollto" href="#sponsor">スポンサー</a></li>
+          <li><a class="nav-link scrollto" href="#active">活動について</a></li>
+          <li><a class="nav-link   scrollto" href="#history">沿革</a></li>
+          <!-- <li><a class="nav-link   scrollto" href="#team">メンバー紹介</a></li> -->
+          <li><a class="nav-link scrollto" href="#cta">コンタクト</a></li>
+          <li><a class="nav-link scrollto" href="#faq">よくある質問</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="particles-js"></div>
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+          data-aos="fade-up" data-aos-delay="200">
+          <h1>RITSUMEIKAN SECURITY TEAM</h1>
+          <h1>情報理工学部プロジェクト団体RiST</h1>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/23699038.jpeg" class="img-fluid img-margin animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>RiSTについて</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              RiSTはサイバーセキュリティに関する活動や研究をするために2019年に情報理工学部プロジェクト団体として認定された団体です。2022年からは対面活動を再開し、現在は活発な活動を行っています。
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>サイバーセキュリティを学び、高め合おう</li>
+              <li><i class="ri-check-double-line"></i>個人では出来ないような体験をしよう</li>
+              <li><i class="ri-check-double-line"></i>CTFやコンテストで良い成績を残そう</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              主な活動としては、CTFやセキュリティコンテストの参加、セキュリティに関連したLT会やセキュリティ関連の研究などがあります。
+              春には初心者講習会などを行い、新入生の方にもサイバーセキュリティに興味を持っていただけるような活動を行っています。<br>
+              <br> また実はセキュリティに関連しない活動も沢山行っているためセキュリティに興味がなくてもエンジニアとして大きく成長できる団体となっています。
+            </p>
+            <a href="#active" class="btn-learn-more">詳しくはこちら</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="sponsor" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content">
+              <h3><strong>スポンサー支援</strong></h3>
+              <p>
+                弊団体は現在<strong>さくらインターネット株式会社</strong>様からスポンサー支援を頂いております。
+              </p>
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-bs-toggle="collapse" class="collapse"
+                    data-bs-target="#accordion-list-1"><span>01</span>さくらインターネット株式会社とは<i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                      大阪市北区に本社を置く、ホスティングサーバを中心とするデータセンター事業およびインターネットサービス事業を行う企業である。また、様々なイベントに参加したり、コミュニティの活動を支援したりするといった活動も行っている。
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
+                    class="collapsed"><span>02</span>提供して頂いているもの<i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      研究や活動のために必要なリソースとして「さくらのクラウド」のサーバーを提供して頂いております。
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>
+                    サーバーの用途<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      サーバーはグローバルネットワーク環境を用いた実験や、CTFを解くために必要なアプリケーションの実行環境のホスティングなどとして利用させて頂いております。
+                    </p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="sponser-logo col-lg-5 align-items-stretch order-1 order-lg-2 img"
+            style='background-image: url("assets/img/logo-3.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/logo-ri.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <h3>所属メンバー割合</h3>
+            <p class="fst-italic">
+              2023年度の所属メンバーの学年割合です。
+            </p>
+
+            <div class="skills-content">
+
+              <div class="progress">
+                <span class="skill">4回生<i class="val">0人</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">3回生 <i class="val">1人</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="6" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">2回生 <i class="val">14人</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">1回生 <i class="val">???</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="active" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>活動について</h2>
+          <p>主な活動は「CTFやコンテストへの参加」「LT会」「サイバーセキュリティ関連の研究」「セキュリティに関連しない活動」です。<br>
+            下記の他に春学期には初心者向けの講習会や1回生の教育をメインとした活動・新歓を行います。<br>
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-flag"></i></div>
+              <h4>CTFとは</h4>
+              <p>サイバーセキュリティの知識向上などを目的とした競技です。様々な知識や技術を用いてフラッグと言われる旗を入手し、その総得点で競います。<br>
+                初心者から本業のハッカーも参加するため幅広い難易度になっています。我々はこのCTFに複数人で参加し、上位入賞を狙っています。</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4>LT会とは</h4>
+              <p>LT(ライトニングトーク)を行う会です。毎週の活動で1人から2人がネタを持ってきて話します。<br>
+                去年のLT会では「ネットワーク入門」「サーバーを攻撃しよう」「ブロックチェーン技術」「セキュリティに関連した法律」などがありました。</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-search"></i></div>
+              <h4>研究</h4>
+              <p>ハッキングツールを用いたパスワードの解読やバグの発見、近年のサイバー攻撃の監視、ダークウェブでの情報探索などを行っています。<br>
+                研究するだけでなく、得た知識や技術をオープンキャンパスや学外のイベントなどで披露したり周知するといった広報活動にも力を入れています。</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-happy-alt"></i></div>
+              <h4>それ以外</h4>
+              <p>ハッカソンと呼ばれるイベントに出てモノづくりを行ったり、情報系団体の交流会に参加したりいろいろやってます。<br>
+                2023年2月にはデータセンターへ見学に行ったり、今年度はCTFの"開催"や東京へ2泊3日の施設見学会または沖縄での大会参加などを企画しています。</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="history" class="about history">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>沿革</h2>
+          <p>今までの活動のほんの少しを紹介！<br>以下の他にもセキュリティ・キャンプ全国大会参加者の排出や各種CTFへの参加もあります。</p>
+        </div>
+        <div class="school p-4 lg:p-10 bg-primary-1">
+          <h2 class="text-2xl font-bold text-primary-1 mb-6">Event Log</h2>
+          <div class="tree_container">
+            <div class="timeline-item" date-is="2021">
+            </div>
+            
+            <div class="timeline-item" date-is="2022">
+              <p>立命館守山高校課題研究アドバイザー</p>
+              
+            </div>
+            <div class="timeline-item" date-is="2022-8">
+              <p>立命館大学オープンキャンパス・サマースクール「実践ハッキング入門」</p>
+            </div>
+            <div class="timeline-item" date-is="2022-9">
+              <p>KC3 「OWASP ZAP を使った脆弱性診断で Webセキュリティを学ぼう！」<span><i class="bx bx-link"></i><a href="https://kc3.me/study/473/">Link</a></span></p>
+            </div>
+            <div class="timeline-item" date-is="2022-10">
+              <p>RiST さくらインターネットスポンサー締結<span><i class="bx bx-link"></i><a href="https://twitter.com/sakura_users/status/1580011178461655042?s=20&t=adPBwiTjJfMV5R-5PCp-0w">Link</a></span></p>
+            </div>
+            <div class="timeline-item" date-is="2022-11">
+              <p>千葉大学セキュリティバグハンティングコンテスト優秀賞 <span><i class="bx bx-link"></i><a href="https://jdp.chiba-u.jp/c-csirt/contest/bughunt2022/index.html">Link</a></span></p>
+            </div>
+            <div class="timeline-item" date-is="2022-12">
+              <p>「プレ・エントランス立命館デー」協力</p>
+            </div>
+            <div class="timeline-item" date-is="2023">
+            </div>
+            <div class="timeline-item" date-is="2023-2">
+              <p>データセンタ見学 - NTT communications</p>
+            </div>
+            <div class="timeline-item" date-is="2023-5">
+              <p>RiSTCTF開催予定</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>コンタクト</h3>
+            <p>部に関する各種質問・連絡はTwitterDMまたはメールまでお願いします。<br>
+              mail : rits.sec@gmail.com <br>
+              TwitterID : @realRiST</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://twitter.com/realRiST"><i class="ri-twitter-fill"></i>
+              Twitter</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>よくある質問</h2>
+          <p>多くされる質問をまとめています。入部を検討している方はぜひ読んでください。</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
+                data-bs-target="#faq-list-1">「プロジェクト団体」と「サークル」との違いはなんですか？ <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  プロジェクト団体は学部公認の団体となるため学部からの支援を受けることができます。部室の優先割り当てや機材の援助、学部からの補助金が受けられます。所属している学生だけが得られる特典などもあります。また顧問がつくため、本来サークルが応募できない様々なイベントに参加することができます。
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2"
+                class="collapsed">パソコンの知識もサイバーセキュリティの知識も全くないですが問題ないですか？<i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  入ってくる人の殆どはパソコンの知識がない状態から入ってきます。サイバーセキュリティの知識もない人がほとんどです。どちらも入部してから先輩の補助を受けながら学ぶ事ができるため心配はいりません。<br>
+                  ただし、「コンピュータが好き、または興味がある事」が最低条件です。
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
+                class="collapsed">部費はいくらですか？ <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+
+                  部費は徴収していません。RiSTはプロジェクト団体の中で唯一部費を徴収していない団体であり、学部からの支援金や奨学金などを利用しています。またイベントなどでは主催側が交通費や宿泊費を負担してくれるため、団体での活動では個人の負担はありません。
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4"
+                class="collapsed">RiSTに所属するメリットはなんですか？<i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  まず、RiSTではサイバーセキュリティに関連した活動を技術や知識を持った先輩のもとで行うことができます。いろんなことを教えて貰ったり、協力したりして自分の力を伸ばすことができます。
+                  積極的に大会やコンテストなどにも出ているため自分の実力や実績を増やすこともできます。<br>
+                  また、RiSTではサイバーセキュリティに関連しているいないに関わらず様々な情報やリソースを提供しています。例えば学習サイトの有料アカウントを配布していたり、様々なイベントや大会・コンテストの情報、新しい技術の情報から初心者に有益な情報などなどを提供しています。また、個人では絶対に知ることのない施設や、入ることのできない施設への見学なども行っていたりします。<br>
+                  経験者の場合は上回生と大会へ出場したり、学内・学外のイベントへの参加が可能となるため、自分の実力・興味に合わせて活動することができます。(もちろん初心者でもイベントや大会の参加は可能です！)
+                  <br><br>また、先輩達は1回生の授業を去年受けているので授業でのわからない問題などについても聞いたりできます。
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5"
+                class="collapsed">使っているコミュニケーションツールなどを教えてください<i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  コミュニケーションツールはDiscordとNotionを利用しています。<br>
+                  Discordはチャットツールで、全体連絡・雑談・参考文献・質問・CTFなどのチャンネルが存在し、連絡やチャットなどを行っています。<br>
+                  Notionは情報共有ツールで、各種情報やリソースを共有しています。イベントの日程や締切日などを見やすくするためのカレンダーや掲示板などがあります。<br>
+                  また個人用のページもあります。ここでは技術だけでなく毎日いろんなことが書かれており、お互いにコメントをしたり、質問したり議論したりとDiscordでのチャット以上に賑わっています。<br>
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="500">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-6"
+                class="collapsed">ハッカーになれますか？ <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  なろうと思えばなれます。しかしハッカーになるにはコンピュータに関する知識、例えばプログラムの知識、ネットワーク、OS(オペレーティング・システム)、暗号に関する知識などが必要となります。
+                  その上でハッキングツールなどを用いた解析技術などが必要となります。<br>
+                  RiSTにはそれらの知識を持ち合わせた人間はいますが、その技術を悪用することはありません。そして脆弱性と呼ばれるプログラムやコンピュータ上の問題点を見つけた場合にはIPA(情報処理推進機構)などに報告することで、その問題点を修正するようにしています。
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="500">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-7"
+                class="collapsed">部室どこですか？ <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  立命館大学 クリエーションコア1階 インキュベーション室1です。部員なら24時間利用できるので、自習や作業などにも利用できます。ただ、部室の利用は2022年度からなのであまり設備は整っていません。
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>RiST 2023</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- IE対応↓ -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+  <!-- IE対応↑ -->
+
+  <script src="assets/js/particle.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
