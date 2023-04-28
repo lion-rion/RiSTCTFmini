@@ -9,3 +9,7 @@ CREATE TABLE IF NOT EXISTS users
 );
 
 INSERT INTO users (id, name, password) VALUES (1, 'admin', 'dwasdwacenauukmznm');
+
+CREATE user 'user'@'%' identified by 'password';
+
+GRANT SELECT ON *.* To 'user'@'%';

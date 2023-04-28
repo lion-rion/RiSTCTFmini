@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>1</title>
+    <title>ログインフォーム</title>
 </head>
 <body>
 <?php 
 
 $dsn = 'mysql:dbname=db;host=db';
-$user = 'root';
-$password = 'root';
+$user = 'user';
+$password = 'password';
 
 //ログイン認証
 if (isset($_POST['name']) && isset($_POST['password'])) {
     $name = $_POST['name'];
-    $pass = $_POST['password'];
+    $pass = $_POST['password'];    
     $sql = "SELECT * FROM users WHERE name = '$name' AND password = '$pass';";
     $dbh = new PDO($dsn, $user, $password);
     $result = $dbh->query($sql);
@@ -30,6 +30,8 @@ if (isset($_POST['name']) && isset($_POST['password'])) {
         $link = '<a href="login.php">戻る</a>';
     }
 }
+
+
 ?>
     <form action="index.php" method="POST">
         <h1>Login</h1>
