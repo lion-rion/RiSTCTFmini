@@ -26,7 +26,7 @@ if (isset($_POST['name']) && isset($_POST['password'])) {
         $msg = 'ログインしました。<br>RiSTCTF{SQL_Injection_is_very_easy}';
         $link = '<a href="index.php">ホーム</a>';
     } else {
-        $msg = 'メールアドレスもしくはパスワードが間違っています。';
+        $msg = 'ユーザーネームもしくはパスワードが間違っています。';
         $link = '<a href="login.php">戻る</a>';
     }
 }
