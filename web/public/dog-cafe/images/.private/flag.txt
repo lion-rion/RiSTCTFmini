@@ -1,0 +1,1 @@
+RiSTCTF{dog_is_cute}
