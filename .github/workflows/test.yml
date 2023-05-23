@@ -13,6 +13,5 @@ jobs:
       - uses: actions/checkout@v3
       - name: Checkout And Build
         run: |
-          ls -la
           cd web/build 
           docker compose up -d
