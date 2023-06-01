@@ -12,7 +12,7 @@ This is a beginner's CTF problem created for an intra-departmental CTF. It is no
 | name | role                 | host | container |
 | ---- | -------------------- | ---- | --------- |
 | app  | Web server & backend | 8001 | 80        |
-| db   | Database             | 3306 | 20002     |
+| db   | Database             | 20002  |  3306   |
 
 ## Usage
 
